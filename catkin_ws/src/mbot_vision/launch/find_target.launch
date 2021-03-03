@@ -1,0 +1,26 @@
+<launch>
+
+    <!--*******************请补充此处代码（开始）**************************** -->
+
+    <!--使用tensorflow检测物体并返回obj_msg信息以及dubug图像 -->
+    <node pkg= "tensorflow_object_detector" name="detect_ros" type="tf_object_detect.py"  output="screen"> 
+    <remap from="image" to="/camera/image_raw"/>
+    </node>
+
+    <node pkg="image_view" type="image_view" name="image_view"   output="screen" >
+    <remap from="image" to="debug_image"/>
+    </node>
+
+    <!--接收obj_msg信息调整机器人运动 并发布机器人的状态 exploring_cmd-->
+    <node pkg= "mbot_vision" name="move_to_target" type="tf_move_to_target"   output="screen"  /> 
+
+    <!--接收机器人的状态信息 根据状态信息对环境探索或回家或靠近物体-->
+    <node pkg= "mbot_navigation" name="exploring_maze" type="exploring_maze.py"  output="screen"/> 
+
+
+    <!--接收机器人的语音信息-->
+    <node pkg= "mbot_voice" name="tts_subscribe" type="tts_subscribe"  output="screen"/> 
+
+    <!--*******************请补充此处代码（结束）**************************** -->
+
+</launch>

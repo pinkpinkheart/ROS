@@ -1,0 +1,861 @@
+============================================================
+Time  2021/03/03 11:02:11 142 
+============================================================
+[2021/03/03 11:02:11 142] lgi        684  SYS_MSG_LOAD  
+[2021/03/03 11:02:11 144] lgi        706  SYS_MSG_REGCB  msp_status_cb  func(cc0131d0) 
+[2021/03/03 11:02:11 144] lgi        298  LGI_MSG_INIT  
+[2021/03/03 11:02:11 145] lgi        305  lgi  lgi_  268436457  1573471853  
+[2021/03/03 11:02:11 145] lgi        347  work_dir  .  
+[2021/03/03 11:02:11 145] lgi        403  token:  nil  
+[2021/03/03 11:02:11 145] lgi        476  msc cver : 5.0.44.1288  
+[2021/03/03 11:02:11 145] lgi        519  ns_enable=  1  
+[2021/03/03 11:02:11 145] lgi        531  prot_ver=1  
+[2021/03/03 11:02:11 145] lgi        542  prot_type=tcp  
+[2021/03/03 11:02:11 146] lgi        693  SYS_MSG_UNLOAD  go bg!  
+[2021/03/03 11:02:29 677] lgi        598  LGI_MSG_START, caller =  cloud_cisr1PdHHBHA5Q31Evq-aatJtHNmBVnwEV  
+[2021/03/03 11:02:29 677] lgi        604  lgistat =   0  
+[2021/03/03 11:02:29 677] lgi        630  lgi_auth_id =  nil  
+[2021/03/03 11:02:29 677] transport  645  paramkvsport is   0  
+[2021/03/03 11:02:29 677] transport  657  ns_enable=  1  
+[2021/03/03 11:02:29 677] transport  659  2017-08--24 is_ns_need_close =   nil  
+[2021/03/03 11:02:29 677] transport  665  net.nettype=  unknown  
+[2021/03/03 11:02:29 678] transport  675  url.full=  nil  
+[2021/03/03 11:02:29 678] transport  680  server_url_host=, server_url_port=, server_url_path=  open.xf-yun.com  nil  /msp.do  
+[2021/03/03 11:02:29 678] transport  907  net type:  unknown  
+[2021/03/03 11:02:29 678] transport  908  net operator:  def  
+[2021/03/03 11:02:29 678] transport  909  use proxy:  false  
+[2021/03/03 11:02:29 678] lgi        277  [session] send lgi request  
+[2021/03/03 11:02:29 678] transport  1105 session.domain=  open.xf-yun.com  
+[2021/03/03 11:02:29 678] transport  1106 url.host=  open.xf-yun.com  
+[2021/03/03 11:02:29 678] transport  1083 NAMESERVER START  
+[2021/03/03 11:02:29 678] transport  1086 name =   ath  
+[2021/03/03 11:02:29 678] ns         634  ntt=  unknown  
+[2021/03/03 11:02:29 678] transport  1089 trans,ns_inprog =  0  
+[2021/03/03 11:02:29 679] ns         582  name server start  
+[2021/03/03 11:02:29 679] ns         588  ns_sub =   ath  
+[2021/03/03 11:02:29 679] ns         596  ns_host =   open.xf-yun.com  
+[2021/03/03 11:02:29 679] ns         475  ns_host=  open.xf-yun.com  
+[2021/03/03 11:02:29 679] ns         555  net_type =  standard  
+[2021/03/03 11:02:29 679] ns         556  cmwapascmnet =  
+[2021/03/03 11:02:29 679] ns         557  uniwapasuninet =  
+[2021/03/03 11:02:29 679] ns         558  ctwapasctnet =  
+[2021/03/03 11:02:29 679] ns         576  host=  hdns.xf-yun.com  
+[2021/03/03 11:02:29 679] network    263  gethostbyname  hdns.xf-yun.com  ns1  
+[2021/03/03 11:02:29 681] lgi        244  lver:  nil  
+[2021/03/03 11:02:29 681] lgi        249  cfg_ver:  nil  
+[2021/03/03 11:02:29 681] transport  1860 transport_obj.send | in  
+[2021/03/03 11:02:29 681] transport  1866 self.msg_flag_q  table(cc0532f0) 
+[2021/03/03 11:02:29 682] transport  1867 self.msg_q  table(cc011ce0) 
+[2021/03/03 11:02:29 682] transport  1799 transport_obj.try2send | in  
+[2021/03/03 11:02:29 682] transport  1800 self.soc  nil  
+[2021/03/03 11:02:29 682] transport  1801 self.connected  false  
+[2021/03/03 11:02:29 682] transport  1802 self.latesterr  0  
+[2021/03/03 11:02:29 682] transport  1873 transport_obj.send | out  
+[2021/03/03 11:02:29 737] network    245  dns resp  0  ns1  
+[2021/03/03 11:02:29 737] ns         422  ns dns ok  42.62.116.35  
+[2021/03/03 11:02:29 737] ns         202  iplist not avail  
+[2021/03/03 11:02:29 737] ns         429  is_voicecloud_ip=  0  
+[2021/03/03 11:02:29 737] ns         436  ip_is_expected=  true  
+[2021/03/03 11:02:29 737] ns         444  ip_is_expected=  true  
+[2021/03/03 11:02:29 737] network    445  gethttpresp2  42.62.116.35  80  ns2  
+[2021/03/03 11:02:29 737] network    465  prot_type  tcp  
+[2021/03/03 11:02:29 786] transport  194  [dns] [1] response 42.62.116.34  
+[2021/03/03 11:02:29 786] transport  202  42  62  116  34  
+[2021/03/03 11:02:29 786] transport  204  ipv =  v4  
+[2021/03/03 11:02:29 786] transport  208  dns ip is v4  
+[2021/03/03 11:02:29 786] transport  130  iplist not avail  
+[2021/03/03 11:02:29 787] transport  247  no iplist now  
+[2021/03/03 11:02:29 788] network    95   iptoenv ,  ipcache  open.xf-yun.com  def  42.62.116.34  
+[2021/03/03 11:02:29 792] transport  291  dns cb start conn  
+[2021/03/03 11:02:29 793] transport  1304 [soc] connect   42.62.116.34  1028  
+[2021/03/03 11:02:29 793] transport  1316 mspsoc.open,prot_type=  tcp  
+[2021/03/03 11:02:29 796] network    350  connected  ns2  
+[2021/03/03 11:02:29 801] network    353  send ok  268  ns2  
+[2021/03/03 11:02:29 839] network    362  readable  ns2  
+[2021/03/03 11:02:29 839] network    366  HTTP/1.1 200 OK
+Date: Wed, 03 Mar 2021 03:02:27 GMT
+Content-Type: application/json
+Content-Length: 308
+Connection: keep-alive
+Server: iflytek/hdns
+
+{"dns":[{"host":"open.xf-yun.com","sip":[{"svc":"ath","ips":[{"ip":"42.62.116.18","port":80,"idc":"dx"},{"ip":"42.62.116.34","port":80,"idc":"dx"}],"ttl":6000,"compel":0}]}],"default":[{"host":"open.xf-yun.com","sip":[{"svc":"ath","ips":[{"ip":"42.62.116.34","port":80,"idc":"dx"}],"ttl":6000,"compel":0}]}]}  
+[2021/03/03 11:02:29 842] ns         253  name server http resp  0  
+[2021/03/03 11:02:29 842] ns         266  ns response OK for this time!  
+[2021/03/03 11:02:29 842] ns         277  from_server=  iflytek/hdns  
+[2021/03/03 11:02:29 843] ns         360  compel :  0  
+[2021/03/03 11:02:29 844] transport  1063 ns_ip =   42.62.116.18  
+[2021/03/03 11:02:29 844] transport  1064 ip_type =  assigned_athopen.xf-yun.com_host  
+[2021/03/03 11:02:29 844] ns         670  no data in ns_q  
+[2021/03/03 11:02:29 844] ns         671  conti_ns,ns_inprog =   1  
+[2021/03/03 11:02:29 850] transport  473  [soc] [1] connected  
+[2021/03/03 11:02:29 850] transport  1799 transport_obj.try2send | in  
+[2021/03/03 11:02:29 851] transport  1800 self.soc  udata(cc032fb8) 
+[2021/03/03 11:02:29 851] transport  1801 self.connected  true  
+[2021/03/03 11:02:29 852] transport  1802 self.latesterr  0  
+[2021/03/03 11:02:29 852] transport  1819 transport:try2send,#msg_q=  1  
+[2021/03/03 11:02:29 852] transport  1359 build http request.  
+[2021/03/03 11:02:29 853] transport  1476 POST /msp.do HTTP/1.1
+X-Sub: auth
+X-Par: ver=MSSP+0%2E9&sub=auth&cmd=lgi&cver=5%2E0%2E44%2E1288&key=08/xUdz2LCq2c=
+Host: open.xf-yun.com
+CT: multipart/mixed;boundary=--
+CL: 331
+
+----
+Content-Length:56
+Content-Type:text/appinfo
+Content-Encoding:gzip,encrypt/0.2
+
+î¥´ý¥p"›‚}z}z‡}3”eEuýrUe%Õ"6ôI?Ä  
+[2021/03/03 11:02:29 855] transport  1819 transport:try2send,#msg_q=  0  
+[2021/03/03 11:02:29 855] transport  482  [soc] [1] send ok  516  
+[2021/03/03 11:02:29 855] transport  1799 transport_obj.try2send | in  
+[2021/03/03 11:02:29 855] transport  1800 self.soc  udata(cc032fb8) 
+[2021/03/03 11:02:29 855] transport  1801 self.connected  true  
+[2021/03/03 11:02:29 855] transport  1802 self.latesterr  0  
+[2021/03/03 11:02:29 856] transport  1819 transport:try2send,#msg_q=  0  
+[2021/03/03 11:02:29 915] transport  494  [soc] [1] readable  
+[2021/03/03 11:02:29 916] transport  1767 HTTP/1.1 200 OK
+Content-Length: 1
+X-Req-Date: 2021/03/03 11:02:28 111
+X-Par: ver=MSSP+0%2E9&ret=0&cver=5%2E0%2E44%2E1288&uid=d15987596668&key=0b2hxPrQ52zxns874B/0z78Kc^GD6FxzSBng0RhPPoYh6^^GHVr44O7Mo^UUW6Exm^aKmJYfI0gN3bXIGyB4Z1vNtcgbIHhnW8
+CT: text/plain
+CL: 1
+Content-Length: 1
+X-Res-Date: 2021/03/03 11:02:28 128
+
+0  
+[2021/03/03 11:02:29 916] transport  1494 a_complete_httpmessage  200  
+[2021/03/03 11:02:29 916] transport  1604 is_update  false  
+[2021/03/03 11:02:29 916] lgi        105  [trans] [id = lgi_] readable  
+[2021/03/03 11:02:29 918] network    90   ipfromenv ,  ipcache  open.xf-yun.com  def  42.62.116.34  
+[2021/03/03 11:02:29 918] transport  972  iplist not avail  
+[2021/03/03 11:02:29 918] transport  1332 [soc] disconnect   
+[2021/03/03 11:02:29 919] transport  991  transport clean  
+[2021/03/03 11:02:29 919] lgi        136  lgi resp!  
+[2021/03/03 11:02:29 919] lgi        143  lgi ok!  
+[2021/03/03 11:02:29 919] lgi        151  unkown  d15987596668  
+[2021/03/03 11:02:29 921] lgi        72   loginid =   1  d15987596668  
+[2021/03/03 11:02:29 921] lgi        75   notify_lgi_result, ret = 0  
+[2021/03/03 11:02:44 673] lgi        697  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2021/03/03 11:02:53 924 
+============================================================
+[2021/03/03 11:02:53 924] lgi        684  SYS_MSG_LOAD  
+[2021/03/03 11:02:53 926] lgi        706  SYS_MSG_REGCB  msp_status_cb  func(400131d0) 
+[2021/03/03 11:02:53 926] lgi        298  LGI_MSG_INIT  
+[2021/03/03 11:02:53 926] lgi        305  lgi  lgi_  268436457  1573471853  
+[2021/03/03 11:02:53 927] lgi        347  work_dir  .  
+[2021/03/03 11:02:53 927] lgi        403  token:  nil  
+[2021/03/03 11:02:53 927] lgi        476  msc cver : 5.0.44.1288  
+[2021/03/03 11:02:53 927] lgi        519  ns_enable=  1  
+[2021/03/03 11:02:53 927] lgi        531  prot_ver=1  
+[2021/03/03 11:02:53 927] lgi        542  prot_type=tcp  
+[2021/03/03 11:02:53 928] lgi        693  SYS_MSG_UNLOAD  go bg!  
+[2021/03/03 11:02:57 518] lgi        598  LGI_MSG_START, caller =  cloud_cisr1PdHHBHA5Q3JEFIcaatSAaA91gUl5B  
+[2021/03/03 11:02:57 518] lgi        604  lgistat =   0  
+[2021/03/03 11:02:57 518] lgi        630  lgi_auth_id =  nil  
+[2021/03/03 11:02:57 519] transport  645  paramkvsport is   0  
+[2021/03/03 11:02:57 519] transport  657  ns_enable=  1  
+[2021/03/03 11:02:57 519] transport  659  2017-08--24 is_ns_need_close =   nil  
+[2021/03/03 11:02:57 519] transport  665  net.nettype=  unknown  
+[2021/03/03 11:02:57 519] transport  675  url.full=  nil  
+[2021/03/03 11:02:57 519] transport  680  server_url_host=, server_url_port=, server_url_path=  open.xf-yun.com  nil  /msp.do  
+[2021/03/03 11:02:57 519] transport  907  net type:  unknown  
+[2021/03/03 11:02:57 519] transport  908  net operator:  def  
+[2021/03/03 11:02:57 519] transport  909  use proxy:  false  
+[2021/03/03 11:02:57 519] lgi        277  [session] send lgi request  
+[2021/03/03 11:02:57 519] transport  1105 session.domain=  open.xf-yun.com  
+[2021/03/03 11:02:57 519] transport  1106 url.host=  open.xf-yun.com  
+[2021/03/03 11:02:57 519] transport  1083 NAMESERVER START  
+[2021/03/03 11:02:57 519] transport  1086 name =   ath  
+[2021/03/03 11:02:57 519] ns         634  ntt=  unknown  
+[2021/03/03 11:02:57 519] transport  1089 trans,ns_inprog =  0  
+[2021/03/03 11:02:57 519] ns         582  name server start  
+[2021/03/03 11:02:57 520] ns         588  ns_sub =   ath  
+[2021/03/03 11:02:57 520] ns         596  ns_host =   open.xf-yun.com  
+[2021/03/03 11:02:57 520] ns         475  ns_host=  open.xf-yun.com  
+[2021/03/03 11:02:57 520] ns         555  net_type =  standard  
+[2021/03/03 11:02:57 520] ns         556  cmwapascmnet =  
+[2021/03/03 11:02:57 520] ns         557  uniwapasuninet =  
+[2021/03/03 11:02:57 520] ns         558  ctwapasctnet =  
+[2021/03/03 11:02:57 520] ns         576  host=  hdns.xf-yun.com  
+[2021/03/03 11:02:57 520] network    263  gethostbyname  hdns.xf-yun.com  ns1  
+[2021/03/03 11:02:57 520] lgi        244  lver:  nil  
+[2021/03/03 11:02:57 520] lgi        249  cfg_ver:  nil  
+[2021/03/03 11:02:57 520] transport  1860 transport_obj.send | in  
+[2021/03/03 11:02:57 520] transport  1866 self.msg_flag_q  table(400613a0) 
+[2021/03/03 11:02:57 520] transport  1867 self.msg_q  table(40061350) 
+[2021/03/03 11:02:57 520] transport  1799 transport_obj.try2send | in  
+[2021/03/03 11:02:57 520] transport  1800 self.soc  nil  
+[2021/03/03 11:02:57 521] transport  1801 self.connected  false  
+[2021/03/03 11:02:57 521] transport  1802 self.latesterr  0  
+[2021/03/03 11:02:57 521] transport  1873 transport_obj.send | out  
+[2021/03/03 11:02:57 521] network    245  dns resp  0  ns1  
+[2021/03/03 11:02:57 521] ns         422  ns dns ok  42.62.116.34  
+[2021/03/03 11:02:57 521] ns         202  iplist not avail  
+[2021/03/03 11:02:57 522] ns         429  is_voicecloud_ip=  0  
+[2021/03/03 11:02:57 522] ns         436  ip_is_expected=  true  
+[2021/03/03 11:02:57 522] ns         444  ip_is_expected=  true  
+[2021/03/03 11:02:57 522] network    445  gethttpresp2  42.62.116.34  80  ns2  
+[2021/03/03 11:02:57 522] network    465  prot_type  tcp  
+[2021/03/03 11:02:57 522] transport  194  [dns] [1] response 42.62.116.34  
+[2021/03/03 11:02:57 522] transport  202  42  62  116  34  
+[2021/03/03 11:02:57 522] transport  204  ipv =  v4  
+[2021/03/03 11:02:57 523] transport  208  dns ip is v4  
+[2021/03/03 11:02:57 523] transport  130  iplist not avail  
+[2021/03/03 11:02:57 523] transport  247  no iplist now  
+[2021/03/03 11:02:57 523] network    95   iptoenv ,  ipcache  open.xf-yun.com  def  42.62.116.34  
+[2021/03/03 11:02:57 523] transport  291  dns cb start conn  
+[2021/03/03 11:02:57 523] transport  1304 [soc] connect   42.62.116.34  1028  
+[2021/03/03 11:02:57 523] transport  1316 mspsoc.open,prot_type=  tcp  
+[2021/03/03 11:02:57 576] network    350  connected  ns2  
+[2021/03/03 11:02:57 576] network    353  send ok  268  ns2  
+[2021/03/03 11:02:57 628] transport  473  [soc] [1] connected  
+[2021/03/03 11:02:57 628] transport  1799 transport_obj.try2send | in  
+[2021/03/03 11:02:57 630] transport  1800 self.soc  udata(4002d298) 
+[2021/03/03 11:02:57 630] transport  1801 self.connected  true  
+[2021/03/03 11:02:57 630] transport  1802 self.latesterr  0  
+[2021/03/03 11:02:57 630] transport  1819 transport:try2send,#msg_q=  1  
+[2021/03/03 11:02:57 630] transport  1359 build http request.  
+[2021/03/03 11:02:57 632] transport  1476 POST /msp.do HTTP/1.1
+X-Sub: auth
+X-Par: ver=MSSP+0%2E9&sub=auth&cmd=lgi&cver=5%2E0%2E44%2E1288&key=08/xUdz2LCq2c=
+Host: open.xf-yun.com
+CT: multipart/mixed;boundary=--
+CL: 331
+
+----
+Content-Length:56
+Content-Type:text/appinfo
+Content-Encoding:gzip,encrypt/0.2
+
+î¥´ý¥p"›‚}z}z‡}3”eEuýrUe%Õ"6ôI?Ä  
+[2021/03/03 11:02:57 634] transport  1819 transport:try2send,#msg_q=  0  
+[2021/03/03 11:02:57 634] network    362  readable  ns2  
+[2021/03/03 11:02:57 635] network    366  HTTP/1.1 200 OK
+Date: Wed, 03 Mar 2021 03:02:55 GMT
+Content-Type: application/json
+Content-Length: 307
+Connection: keep-alive
+Server: iflytek/hdns
+
+{"dns":[{"host":"open.xf-yun.com","sip":[{"svc":"ath","ips":[{"ip":"42.62.42.18","port":80,"idc":"dx"},{"ip":"42.62.116.18","port":80,"idc":"dx"}],"ttl":6000,"compel":0}]}],"default":[{"host":"open.xf-yun.com","sip":[{"svc":"ath","ips":[{"ip":"42.62.116.18","port":80,"idc":"dx"}],"ttl":6000,"compel":0}]}]}  
+[2021/03/03 11:02:57 636] ns         253  name server http resp  0  
+[2021/03/03 11:02:57 636] ns         266  ns response OK for this time!  
+[2021/03/03 11:02:57 636] ns         277  from_server=  iflytek/hdns  
+[2021/03/03 11:02:57 638] ns         360  compel :  0  
+[2021/03/03 11:02:57 640] transport  1063 ns_ip =   42.62.42.18  
+[2021/03/03 11:02:57 640] transport  1064 ip_type =  assigned_athopen.xf-yun.com_host  
+[2021/03/03 11:02:57 640] ns         670  no data in ns_q  
+[2021/03/03 11:02:57 641] ns         671  conti_ns,ns_inprog =   1  
+[2021/03/03 11:02:57 641] transport  482  [soc] [1] send ok  516  
+[2021/03/03 11:02:57 641] transport  1799 transport_obj.try2send | in  
+[2021/03/03 11:02:57 641] transport  1800 self.soc  udata(4002d298) 
+[2021/03/03 11:02:57 641] transport  1801 self.connected  true  
+[2021/03/03 11:02:57 641] transport  1802 self.latesterr  0  
+[2021/03/03 11:02:57 641] transport  1819 transport:try2send,#msg_q=  0  
+[2021/03/03 11:02:57 702] transport  494  [soc] [1] readable  
+[2021/03/03 11:02:57 703] transport  1767 HTTP/1.1 200 OK
+Content-Length: 1
+X-Req-Date: 2021/03/03 11:02:55 893
+X-Par: ver=MSSP+0%2E9&ret=0&cver=5%2E0%2E44%2E1288&uid=d16059986516&key=0bnSBfvNixc^3Z28o02k9Z7EwRZEox7o1QHpBcGuY0^M^^^GHVr44O7F31uwm8rS7v^O69lP45Bl3bXIGyB4Z1vNtcgbIHhnW8
+CT: text/plain
+CL: 1
+Content-Length: 1
+X-Res-Date: 2021/03/03 11:02:55 908
+
+0  
+[2021/03/03 11:02:57 704] transport  1494 a_complete_httpmessage  200  
+[2021/03/03 11:02:57 704] transport  1604 is_update  false  
+[2021/03/03 11:02:57 704] lgi        105  [trans] [id = lgi_] readable  
+[2021/03/03 11:02:57 706] network    90   ipfromenv ,  ipcache  open.xf-yun.com  def  42.62.116.34  
+[2021/03/03 11:02:57 706] transport  981  cached ip is confirmed  
+[2021/03/03 11:02:57 707] transport  1332 [soc] disconnect   
+[2021/03/03 11:02:57 707] transport  991  transport clean  
+[2021/03/03 11:02:57 707] lgi        136  lgi resp!  
+[2021/03/03 11:02:57 707] lgi        143  lgi ok!  
+[2021/03/03 11:02:57 707] lgi        151  unkown  d16059986516  
+[2021/03/03 11:02:57 708] lgi        72   loginid =   1  d16059986516  
+[2021/03/03 11:02:57 708] lgi        75   notify_lgi_result, ret = 0  
+[2021/03/03 11:03:12 521] lgi        697  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2021/03/03 14:14:41 500 
+============================================================
+[2021/03/03 14:14:41 500] lgi        684  SYS_MSG_LOAD  
+[2021/03/03 14:14:41 501] lgi        706  SYS_MSG_REGCB  msp_status_cb  func(20013210) 
+[2021/03/03 14:14:41 501] lgi        298  LGI_MSG_INIT  
+[2021/03/03 14:14:41 501] lgi        305  lgi  lgi_  268436457  1573471853  
+[2021/03/03 14:14:41 501] lgi        347  work_dir  .  
+[2021/03/03 14:14:41 501] lgi        403  token:  nil  
+[2021/03/03 14:14:41 501] lgi        476  msc cver : 5.0.44.1288  
+[2021/03/03 14:14:41 501] lgi        519  ns_enable=  1  
+[2021/03/03 14:14:41 501] lgi        531  prot_ver=1  
+[2021/03/03 14:14:41 501] lgi        542  prot_type=tcp  
+[2021/03/03 14:14:41 502] lgi        693  SYS_MSG_UNLOAD  go bg!  
+[2021/03/03 14:14:41 508] lgi        598  LGI_MSG_START, caller =  ctts1PdHHBHA5qIpGvCraaC0MP1quRJwYe  
+[2021/03/03 14:14:41 508] lgi        604  lgistat =   0  
+[2021/03/03 14:14:41 508] lgi        630  lgi_auth_id =  nil  
+[2021/03/03 14:14:41 508] transport  645  paramkvsport is   0  
+[2021/03/03 14:14:41 509] transport  657  ns_enable=  1  
+[2021/03/03 14:14:41 509] transport  659  2017-08--24 is_ns_need_close =   nil  
+[2021/03/03 14:14:41 509] transport  665  net.nettype=  unknown  
+[2021/03/03 14:14:41 509] transport  675  url.full=  nil  
+[2021/03/03 14:14:41 509] transport  680  server_url_host=, server_url_port=, server_url_path=  open.xf-yun.com  nil  /msp.do  
+[2021/03/03 14:14:41 509] transport  907  net type:  unknown  
+[2021/03/03 14:14:41 509] transport  908  net operator:  def  
+[2021/03/03 14:14:41 509] transport  909  use proxy:  false  
+[2021/03/03 14:14:41 509] lgi        277  [session] send lgi request  
+[2021/03/03 14:14:41 509] transport  1105 session.domain=  open.xf-yun.com  
+[2021/03/03 14:14:41 509] transport  1106 url.host=  open.xf-yun.com  
+[2021/03/03 14:14:41 509] transport  1083 NAMESERVER START  
+[2021/03/03 14:14:41 509] transport  1086 name =   ath  
+[2021/03/03 14:14:41 509] ns         634  ntt=  unknown  
+[2021/03/03 14:14:41 509] transport  1089 trans,ns_inprog =  0  
+[2021/03/03 14:14:41 510] ns         582  name server start  
+[2021/03/03 14:14:41 510] ns         588  ns_sub =   ath  
+[2021/03/03 14:14:41 510] ns         596  ns_host =   open.xf-yun.com  
+[2021/03/03 14:14:41 510] ns         475  ns_host=  open.xf-yun.com  
+[2021/03/03 14:14:41 510] ns         555  net_type =  standard  
+[2021/03/03 14:14:41 510] ns         556  cmwapascmnet =  
+[2021/03/03 14:14:41 510] ns         557  uniwapasuninet =  
+[2021/03/03 14:14:41 510] ns         558  ctwapasctnet =  
+[2021/03/03 14:14:41 510] ns         576  host=  hdns.xf-yun.com  
+[2021/03/03 14:14:41 510] network    263  gethostbyname  hdns.xf-yun.com  ns1  
+[2021/03/03 14:14:41 510] lgi        244  lver:  nil  
+[2021/03/03 14:14:41 510] lgi        249  cfg_ver:  nil  
+[2021/03/03 14:14:41 510] transport  1860 transport_obj.send | in  
+[2021/03/03 14:14:41 510] transport  1866 self.msg_flag_q  table(20018010) 
+[2021/03/03 14:14:41 511] transport  1867 self.msg_q  table(20017fc0) 
+[2021/03/03 14:14:41 511] transport  1799 transport_obj.try2send | in  
+[2021/03/03 14:14:41 511] transport  1800 self.soc  nil  
+[2021/03/03 14:14:41 511] transport  1801 self.connected  false  
+[2021/03/03 14:14:41 511] transport  1802 self.latesterr  0  
+[2021/03/03 14:14:41 511] transport  1873 transport_obj.send | out  
+[2021/03/03 14:14:41 538] network    245  dns resp  0  ns1  
+[2021/03/03 14:14:41 539] ns         422  ns dns ok  42.62.116.34  
+[2021/03/03 14:14:41 539] ns         202  iplist not avail  
+[2021/03/03 14:14:41 539] ns         429  is_voicecloud_ip=  0  
+[2021/03/03 14:14:41 539] ns         436  ip_is_expected=  true  
+[2021/03/03 14:14:41 539] ns         444  ip_is_expected=  true  
+[2021/03/03 14:14:41 540] network    445  gethttpresp2  42.62.116.34  80  ns2  
+[2021/03/03 14:14:41 540] network    465  prot_type  tcp  
+[2021/03/03 14:14:41 548] network    418  soc error  10202  ns2  
+[2021/03/03 14:14:41 548] ns         253  name server http resp  10202  
+[2021/03/03 14:14:41 548] ns         412  ns response failed, err =  10202  
+[2021/03/03 14:14:41 548] ns         114  ns_host=  open.xf-yun.com  
+[2021/03/03 14:14:41 548] ns         116  use default ip  
+[2021/03/03 14:14:41 548] transport  1063 ns_ip =   42.62.116.18  
+[2021/03/03 14:14:41 548] transport  1064 ip_type =  def_athopen.xf-yun.com  
+[2021/03/03 14:14:41 548] transport  1304 [soc] connect   42.62.116.18  1028  
+[2021/03/03 14:14:41 548] transport  1316 mspsoc.open,prot_type=  tcp  
+[2021/03/03 14:14:41 549] ns         670  no data in ns_q  
+[2021/03/03 14:14:41 549] ns         671  conti_ns,ns_inprog =   1  
+[2021/03/03 14:14:41 552] transport  542  MSC:[soc] [1] error 10202 113!  
+[2021/03/03 14:14:41 553] transport  67   clear_ip ip_type =  def_athopen.xf-yun.com  
+[2021/03/03 14:14:41 553] transport  342  soc_conn_failed  
+[2021/03/03 14:14:41 553] network    95   iptoenv ,  ipcache  open.xf-yun.com  def  nil  
+[2021/03/03 14:14:41 554] transport  416  switch 80  
+[2021/03/03 14:14:41 554] transport  1332 [soc] disconnect   
+[2021/03/03 14:14:42 554] transport  330  soc_10202_wait  
+[2021/03/03 14:14:42 555] transport  1105 session.domain=  open.xf-yun.com  
+[2021/03/03 14:14:42 555] transport  1106 url.host=  open.xf-yun.com  
+[2021/03/03 14:14:42 555] transport  1083 NAMESERVER START  
+[2021/03/03 14:14:42 555] transport  1086 name =   ath  
+[2021/03/03 14:14:42 555] ns         634  ntt=  unknown  
+[2021/03/03 14:14:42 555] transport  1089 trans,ns_inprog =  0  
+[2021/03/03 14:14:42 555] ns         582  name server start  
+[2021/03/03 14:14:42 555] ns         588  ns_sub =   ath  
+[2021/03/03 14:14:42 555] ns         596  ns_host =   open.xf-yun.com  
+[2021/03/03 14:14:42 555] ns         475  ns_host=  open.xf-yun.com  
+[2021/03/03 14:14:42 555] ns         555  net_type =  standard  
+[2021/03/03 14:14:42 555] ns         556  cmwapascmnet =  
+[2021/03/03 14:14:42 556] ns         557  uniwapasuninet =  
+[2021/03/03 14:14:42 556] ns         558  ctwapasctnet =  
+[2021/03/03 14:14:42 556] ns         576  host=  hdns.xf-yun.com  
+[2021/03/03 14:14:42 556] network    263  gethostbyname  hdns.xf-yun.com  ns3  
+[2021/03/03 14:14:42 557] network    245  dns resp  0  ns3  
+[2021/03/03 14:14:42 557] ns         422  ns dns ok  42.62.116.18  
+[2021/03/03 14:14:42 557] ns         202  iplist not avail  
+[2021/03/03 14:14:42 558] ns         429  is_voicecloud_ip=  0  
+[2021/03/03 14:14:42 558] ns         436  ip_is_expected=  true  
+[2021/03/03 14:14:42 558] ns         444  ip_is_expected=  true  
+[2021/03/03 14:14:42 558] network    445  gethttpresp2  42.62.116.18  80  ns4  
+[2021/03/03 14:14:42 558] network    465  prot_type  tcp  
+[2021/03/03 14:14:42 559] transport  194  [dns] [1] response 42.62.116.34  
+[2021/03/03 14:14:42 559] transport  202  42  62  116  34  
+[2021/03/03 14:14:42 559] transport  204  ipv =  v4  
+[2021/03/03 14:14:42 559] transport  208  dns ip is v4  
+[2021/03/03 14:14:42 560] transport  130  iplist not avail  
+[2021/03/03 14:14:42 560] transport  247  no iplist now  
+[2021/03/03 14:14:42 560] network    95   iptoenv ,  ipcache  open.xf-yun.com  def  42.62.116.34  
+[2021/03/03 14:14:42 563] transport  291  dns cb start conn  
+[2021/03/03 14:14:42 564] transport  1304 [soc] connect   42.62.116.34  1028  
+[2021/03/03 14:14:42 564] transport  1316 mspsoc.open,prot_type=  tcp  
+[2021/03/03 14:14:42 566] network    418  soc error  10202  ns4  
+[2021/03/03 14:14:42 566] ns         253  name server http resp  10202  
+[2021/03/03 14:14:42 566] ns         412  ns response failed, err =  10202  
+[2021/03/03 14:14:42 566] ns         114  ns_host=  open.xf-yun.com  
+[2021/03/03 14:14:42 566] ns         116  use default ip  
+[2021/03/03 14:14:42 567] transport  1063 ns_ip =   42.62.116.18  
+[2021/03/03 14:14:42 567] transport  1064 ip_type =  def_athopen.xf-yun.com  
+[2021/03/03 14:14:42 567] ns         670  no data in ns_q  
+[2021/03/03 14:14:42 567] ns         671  conti_ns,ns_inprog =   1  
+[2021/03/03 14:14:42 576] transport  542  MSC:[soc] [1] error 10202 113!  
+[2021/03/03 14:14:42 577] transport  67   clear_ip ip_type =  def_athopen.xf-yun.com  
+[2021/03/03 14:14:42 577] transport  342  soc_conn_failed  
+[2021/03/03 14:14:42 577] network    95   iptoenv ,  ipcache  open.xf-yun.com  def  nil  
+[2021/03/03 14:14:42 580] transport  416  switch 80  
+[2021/03/03 14:14:42 580] transport  1332 [soc] disconnect   
+[2021/03/03 14:14:43 581] transport  330  soc_10202_wait  
+[2021/03/03 14:14:43 581] transport  1105 session.domain=  open.xf-yun.com  
+[2021/03/03 14:14:43 581] transport  1106 url.host=  open.xf-yun.com  
+[2021/03/03 14:14:43 581] transport  1083 NAMESERVER START  
+[2021/03/03 14:14:43 582] transport  1086 name =   ath  
+[2021/03/03 14:14:43 582] ns         634  ntt=  unknown  
+[2021/03/03 14:14:43 582] transport  1089 trans,ns_inprog =  0  
+[2021/03/03 14:14:43 582] ns         582  name server start  
+[2021/03/03 14:14:43 582] ns         588  ns_sub =   ath  
+[2021/03/03 14:14:43 582] ns         596  ns_host =   open.xf-yun.com  
+[2021/03/03 14:14:43 582] ns         475  ns_host=  open.xf-yun.com  
+[2021/03/03 14:14:43 582] ns         555  net_type =  standard  
+[2021/03/03 14:14:43 582] ns         556  cmwapascmnet =  
+[2021/03/03 14:14:43 582] ns         557  uniwapasuninet =  
+[2021/03/03 14:14:43 582] ns         558  ctwapasctnet =  
+[2021/03/03 14:14:43 583] ns         576  host=  hdns.xf-yun.com  
+[2021/03/03 14:14:43 583] network    263  gethostbyname  hdns.xf-yun.com  ns5  
+[2021/03/03 14:14:43 584] network    245  dns resp  0  ns5  
+[2021/03/03 14:14:43 584] ns         422  ns dns ok  42.62.116.18  
+[2021/03/03 14:14:43 584] ns         202  iplist not avail  
+[2021/03/03 14:14:43 585] ns         429  is_voicecloud_ip=  0  
+[2021/03/03 14:14:43 585] ns         436  ip_is_expected=  true  
+[2021/03/03 14:14:43 585] ns         444  ip_is_expected=  true  
+[2021/03/03 14:14:43 585] network    445  gethttpresp2  42.62.116.18  80  ns6  
+[2021/03/03 14:14:43 585] network    465  prot_type  tcp  
+[2021/03/03 14:14:43 586] transport  194  [dns] [1] response 42.62.116.34  
+[2021/03/03 14:14:43 586] transport  202  42  62  116  34  
+[2021/03/03 14:14:43 586] transport  204  ipv =  v4  
+[2021/03/03 14:14:43 586] transport  208  dns ip is v4  
+[2021/03/03 14:14:43 587] transport  130  iplist not avail  
+[2021/03/03 14:14:43 587] transport  247  no iplist now  
+[2021/03/03 14:14:43 587] network    95   iptoenv ,  ipcache  open.xf-yun.com  def  42.62.116.34  
+[2021/03/03 14:14:43 589] transport  291  dns cb start conn  
+[2021/03/03 14:14:43 589] transport  1304 [soc] connect   42.62.116.34  1028  
+[2021/03/03 14:14:43 589] transport  1316 mspsoc.open,prot_type=  tcp  
+[2021/03/03 14:14:43 590] network    418  soc error  10202  ns6  
+[2021/03/03 14:14:43 590] ns         253  name server http resp  10202  
+[2021/03/03 14:14:43 590] ns         412  ns response failed, err =  10202  
+[2021/03/03 14:14:43 591] ns         114  ns_host=  open.xf-yun.com  
+[2021/03/03 14:14:43 591] ns         116  use default ip  
+[2021/03/03 14:14:43 591] transport  1063 ns_ip =   42.62.116.18  
+[2021/03/03 14:14:43 591] transport  1064 ip_type =  def_athopen.xf-yun.com  
+[2021/03/03 14:14:43 591] ns         670  no data in ns_q  
+[2021/03/03 14:14:43 591] ns         671  conti_ns,ns_inprog =   1  
+[2021/03/03 14:14:43 601] transport  542  MSC:[soc] [1] error 10202 113!  
+[2021/03/03 14:14:43 601] transport  67   clear_ip ip_type =  def_athopen.xf-yun.com  
+[2021/03/03 14:14:43 601] transport  342  soc_conn_failed  
+[2021/03/03 14:14:43 601] network    95   iptoenv ,  ipcache  open.xf-yun.com  def  nil  
+[2021/03/03 14:14:43 602] transport  416  switch 80  
+[2021/03/03 14:14:43 602] transport  1332 [soc] disconnect   
+[2021/03/03 14:14:44 603] transport  330  soc_10202_wait  
+[2021/03/03 14:14:44 603] transport  1105 session.domain=  open.xf-yun.com  
+[2021/03/03 14:14:44 603] transport  1106 url.host=  open.xf-yun.com  
+[2021/03/03 14:14:44 603] transport  1083 NAMESERVER START  
+[2021/03/03 14:14:44 603] transport  1086 name =   ath  
+[2021/03/03 14:14:44 603] ns         634  ntt=  unknown  
+[2021/03/03 14:14:44 603] transport  1089 trans,ns_inprog =  0  
+[2021/03/03 14:14:44 603] ns         582  name server start  
+[2021/03/03 14:14:44 603] ns         588  ns_sub =   ath  
+[2021/03/03 14:14:44 603] ns         596  ns_host =   open.xf-yun.com  
+[2021/03/03 14:14:44 603] ns         475  ns_host=  open.xf-yun.com  
+[2021/03/03 14:14:44 603] ns         555  net_type =  standard  
+[2021/03/03 14:14:44 604] ns         556  cmwapascmnet =  
+[2021/03/03 14:14:44 604] ns         557  uniwapasuninet =  
+[2021/03/03 14:14:44 604] ns         558  ctwapasctnet =  
+[2021/03/03 14:14:44 604] ns         576  host=  hdns.xf-yun.com  
+[2021/03/03 14:14:44 604] network    263  gethostbyname  hdns.xf-yun.com  ns7  
+[2021/03/03 14:14:44 605] network    245  dns resp  0  ns7  
+[2021/03/03 14:14:44 605] ns         422  ns dns ok  42.62.116.18  
+[2021/03/03 14:14:44 606] ns         202  iplist not avail  
+[2021/03/03 14:14:44 606] ns         429  is_voicecloud_ip=  0  
+[2021/03/03 14:14:44 607] ns         436  ip_is_expected=  true  
+[2021/03/03 14:14:44 607] ns         444  ip_is_expected=  true  
+[2021/03/03 14:14:44 607] network    445  gethttpresp2  42.62.116.18  80  ns8  
+[2021/03/03 14:14:44 607] network    465  prot_type  tcp  
+[2021/03/03 14:14:44 608] transport  194  [dns] [1] response 42.62.116.34  
+[2021/03/03 14:14:44 608] transport  202  42  62  116  34  
+[2021/03/03 14:14:44 608] transport  204  ipv =  v4  
+[2021/03/03 14:14:44 608] transport  208  dns ip is v4  
+[2021/03/03 14:14:44 608] transport  130  iplist not avail  
+[2021/03/03 14:14:44 608] transport  247  no iplist now  
+[2021/03/03 14:14:44 608] network    95   iptoenv ,  ipcache  open.xf-yun.com  def  42.62.116.34  
+[2021/03/03 14:14:44 611] transport  291  dns cb start conn  
+[2021/03/03 14:14:44 612] transport  1304 [soc] connect   42.62.116.34  1028  
+[2021/03/03 14:14:44 612] transport  1316 mspsoc.open,prot_type=  tcp  
+[2021/03/03 14:14:44 614] network    418  soc error  10202  ns8  
+[2021/03/03 14:14:44 614] ns         253  name server http resp  10202  
+[2021/03/03 14:14:44 614] ns         412  ns response failed, err =  10202  
+[2021/03/03 14:14:44 614] ns         114  ns_host=  open.xf-yun.com  
+[2021/03/03 14:14:44 615] ns         116  use default ip  
+[2021/03/03 14:14:44 615] transport  1063 ns_ip =   42.62.116.18  
+[2021/03/03 14:14:44 615] transport  1064 ip_type =  def_athopen.xf-yun.com  
+[2021/03/03 14:14:44 615] ns         670  no data in ns_q  
+[2021/03/03 14:14:44 615] ns         671  conti_ns,ns_inprog =   1  
+[2021/03/03 14:14:44 625] transport  542  MSC:[soc] [1] error 10202 113!  
+[2021/03/03 14:14:44 625] transport  67   clear_ip ip_type =  def_athopen.xf-yun.com  
+[2021/03/03 14:14:44 625] transport  342  soc_conn_failed  
+[2021/03/03 14:14:44 625] network    95   iptoenv ,  ipcache  open.xf-yun.com  def  nil  
+[2021/03/03 14:14:44 629] transport  416  switch 80  
+[2021/03/03 14:14:44 629] transport  1332 [soc] disconnect   
+[2021/03/03 14:14:45 630] transport  330  soc_10202_wait  
+[2021/03/03 14:14:45 630] transport  1105 session.domain=  open.xf-yun.com  
+[2021/03/03 14:14:45 630] transport  1106 url.host=  open.xf-yun.com  
+[2021/03/03 14:14:45 631] transport  1083 NAMESERVER START  
+[2021/03/03 14:14:45 631] transport  1086 name =   ath  
+[2021/03/03 14:14:45 631] ns         634  ntt=  unknown  
+[2021/03/03 14:14:45 631] transport  1089 trans,ns_inprog =  0  
+[2021/03/03 14:14:45 631] ns         582  name server start  
+[2021/03/03 14:14:45 631] ns         588  ns_sub =   ath  
+[2021/03/03 14:14:45 631] ns         596  ns_host =   open.xf-yun.com  
+[2021/03/03 14:14:45 631] ns         475  ns_host=  open.xf-yun.com  
+[2021/03/03 14:14:45 631] ns         555  net_type =  standard  
+[2021/03/03 14:14:45 631] ns         556  cmwapascmnet =  
+[2021/03/03 14:14:45 632] ns         557  uniwapasuninet =  
+[2021/03/03 14:14:45 632] ns         558  ctwapasctnet =  
+[2021/03/03 14:14:45 632] ns         576  host=  hdns.xf-yun.com  
+[2021/03/03 14:14:45 632] network    263  gethostbyname  hdns.xf-yun.com  ns9  
+[2021/03/03 14:14:45 634] network    245  dns resp  0  ns9  
+[2021/03/03 14:14:45 634] ns         422  ns dns ok  42.62.116.18  
+[2021/03/03 14:14:45 634] ns         202  iplist not avail  
+[2021/03/03 14:14:45 635] ns         429  is_voicecloud_ip=  0  
+[2021/03/03 14:14:45 635] ns         436  ip_is_expected=  true  
+[2021/03/03 14:14:45 635] ns         444  ip_is_expected=  true  
+[2021/03/03 14:14:45 635] network    445  gethttpresp2  42.62.116.18  80  ns10  
+[2021/03/03 14:14:45 635] network    465  prot_type  tcp  
+[2021/03/03 14:14:45 636] transport  194  [dns] [1] response 42.62.116.34  
+[2021/03/03 14:14:45 637] transport  202  42  62  116  34  
+[2021/03/03 14:14:45 637] transport  204  ipv =  v4  
+[2021/03/03 14:14:45 637] transport  208  dns ip is v4  
+[2021/03/03 14:14:45 637] transport  130  iplist not avail  
+[2021/03/03 14:14:45 637] transport  247  no iplist now  
+[2021/03/03 14:14:45 637] network    95   iptoenv ,  ipcache  open.xf-yun.com  def  42.62.116.34  
+[2021/03/03 14:14:45 640] transport  291  dns cb start conn  
+[2021/03/03 14:14:45 640] transport  1304 [soc] connect   42.62.116.34  1028  
+[2021/03/03 14:14:45 641] transport  1316 mspsoc.open,prot_type=  tcp  
+[2021/03/03 14:14:45 642] network    418  soc error  10202  ns10  
+[2021/03/03 14:14:45 643] ns         253  name server http resp  10202  
+[2021/03/03 14:14:45 643] ns         412  ns response failed, err =  10202  
+[2021/03/03 14:14:45 643] ns         114  ns_host=  open.xf-yun.com  
+[2021/03/03 14:14:45 643] ns         116  use default ip  
+[2021/03/03 14:14:45 643] transport  1063 ns_ip =   42.62.116.18  
+[2021/03/03 14:14:45 643] transport  1064 ip_type =  def_athopen.xf-yun.com  
+[2021/03/03 14:14:45 643] ns         670  no data in ns_q  
+[2021/03/03 14:14:45 643] ns         671  conti_ns,ns_inprog =   1  
+[2021/03/03 14:14:45 653] transport  542  MSC:[soc] [1] error 10202 113!  
+[2021/03/03 14:14:45 653] transport  67   clear_ip ip_type =  def_athopen.xf-yun.com  
+[2021/03/03 14:14:45 653] transport  342  soc_conn_failed  
+[2021/03/03 14:14:45 653] network    95   iptoenv ,  ipcache  open.xf-yun.com  def  nil  
+[2021/03/03 14:14:45 654] transport  416  switch 80  
+[2021/03/03 14:14:45 654] transport  1332 [soc] disconnect   
+[2021/03/03 14:14:46 555] transport  320  soc_10202_timeout  
+[2021/03/03 14:14:46 654] transport  330  soc_10202_wait  
+[2021/03/03 14:14:46 654] transport  1105 session.domain=  open.xf-yun.com  
+[2021/03/03 14:14:46 654] transport  1106 url.host=  open.xf-yun.com  
+[2021/03/03 14:14:46 654] transport  1083 NAMESERVER START  
+[2021/03/03 14:14:46 654] transport  1086 name =   ath  
+[2021/03/03 14:14:46 654] ns         634  ntt=  unknown  
+[2021/03/03 14:14:46 654] transport  1089 trans,ns_inprog =  0  
+[2021/03/03 14:14:46 655] ns         582  name server start  
+[2021/03/03 14:14:46 655] ns         588  ns_sub =   ath  
+[2021/03/03 14:14:46 655] ns         596  ns_host =   open.xf-yun.com  
+[2021/03/03 14:14:46 655] ns         475  ns_host=  open.xf-yun.com  
+[2021/03/03 14:14:46 655] ns         555  net_type =  standard  
+[2021/03/03 14:14:46 655] ns         556  cmwapascmnet =  
+[2021/03/03 14:14:46 655] ns         557  uniwapasuninet =  
+[2021/03/03 14:14:46 655] ns         558  ctwapasctnet =  
+[2021/03/03 14:14:46 655] ns         576  host=  hdns.xf-yun.com  
+[2021/03/03 14:14:46 655] network    263  gethostbyname  hdns.xf-yun.com  ns11  
+[2021/03/03 14:14:46 657] network    245  dns resp  0  ns11  
+[2021/03/03 14:14:46 657] ns         422  ns dns ok  42.62.116.18  
+[2021/03/03 14:14:46 657] ns         202  iplist not avail  
+[2021/03/03 14:14:46 658] ns         429  is_voicecloud_ip=  0  
+[2021/03/03 14:14:46 658] ns         436  ip_is_expected=  true  
+[2021/03/03 14:14:46 659] ns         444  ip_is_expected=  true  
+[2021/03/03 14:14:46 659] network    445  gethttpresp2  42.62.116.18  80  ns12  
+[2021/03/03 14:14:46 659] network    465  prot_type  tcp  
+[2021/03/03 14:14:46 663] transport  194  [dns] [1] response 42.62.116.34  
+[2021/03/03 14:14:46 663] transport  202  42  62  116  34  
+[2021/03/03 14:14:46 663] transport  204  ipv =  v4  
+[2021/03/03 14:14:46 663] transport  208  dns ip is v4  
+[2021/03/03 14:14:46 664] transport  130  iplist not avail  
+[2021/03/03 14:14:46 664] transport  247  no iplist now  
+[2021/03/03 14:14:46 664] network    95   iptoenv ,  ipcache  open.xf-yun.com  def  42.62.116.34  
+[2021/03/03 14:14:46 668] transport  291  dns cb start conn  
+[2021/03/03 14:14:46 668] transport  1304 [soc] connect   42.62.116.34  1028  
+[2021/03/03 14:14:46 669] transport  1316 mspsoc.open,prot_type=  tcp  
+[2021/03/03 14:14:46 671] network    418  soc error  10202  ns12  
+[2021/03/03 14:14:46 672] ns         253  name server http resp  10202  
+[2021/03/03 14:14:46 672] ns         412  ns response failed, err =  10202  
+[2021/03/03 14:14:46 672] ns         114  ns_host=  open.xf-yun.com  
+[2021/03/03 14:14:46 672] ns         116  use default ip  
+[2021/03/03 14:14:46 672] transport  1063 ns_ip =   42.62.116.18  
+[2021/03/03 14:14:46 673] transport  1064 ip_type =  def_athopen.xf-yun.com  
+[2021/03/03 14:14:46 673] ns         670  no data in ns_q  
+[2021/03/03 14:14:46 673] ns         671  conti_ns,ns_inprog =   1  
+[2021/03/03 14:14:46 673] transport  542  MSC:[soc] [1] error 10202 113!  
+[2021/03/03 14:14:46 673] transport  67   clear_ip ip_type =  def_athopen.xf-yun.com  
+[2021/03/03 14:14:46 673] transport  342  soc_conn_failed  
+[2021/03/03 14:14:46 673] network    95   iptoenv ,  ipcache  open.xf-yun.com  def  nil  
+[2021/03/03 14:14:46 676] transport  416  switch 80  
+[2021/03/03 14:14:46 676] transport  1332 [soc] disconnect   
+[2021/03/03 14:14:47 677] transport  330  soc_10202_wait  
+[2021/03/03 14:14:47 677] transport  1105 session.domain=  open.xf-yun.com  
+[2021/03/03 14:14:47 677] transport  1106 url.host=  open.xf-yun.com  
+[2021/03/03 14:14:47 677] transport  1083 NAMESERVER START  
+[2021/03/03 14:14:47 677] transport  1086 name =   ath  
+[2021/03/03 14:14:47 677] ns         634  ntt=  unknown  
+[2021/03/03 14:14:47 677] transport  1089 trans,ns_inprog =  0  
+[2021/03/03 14:14:47 677] ns         582  name server start  
+[2021/03/03 14:14:47 677] ns         588  ns_sub =   ath  
+[2021/03/03 14:14:47 677] ns         596  ns_host =   open.xf-yun.com  
+[2021/03/03 14:14:47 677] ns         475  ns_host=  open.xf-yun.com  
+[2021/03/03 14:14:47 677] ns         555  net_type =  standard  
+[2021/03/03 14:14:47 677] ns         556  cmwapascmnet =  
+[2021/03/03 14:14:47 677] ns         557  uniwapasuninet =  
+[2021/03/03 14:14:47 677] ns         558  ctwapasctnet =  
+[2021/03/03 14:14:47 677] ns         576  host=  hdns.xf-yun.com  
+[2021/03/03 14:14:47 677] network    263  gethostbyname  hdns.xf-yun.com  ns13  
+[2021/03/03 14:14:47 678] network    245  dns resp  0  ns13  
+[2021/03/03 14:14:47 678] ns         422  ns dns ok  42.62.116.18  
+[2021/03/03 14:14:47 678] ns         202  iplist not avail  
+[2021/03/03 14:14:47 678] ns         429  is_voicecloud_ip=  0  
+[2021/03/03 14:14:47 678] ns         436  ip_is_expected=  true  
+[2021/03/03 14:14:47 679] ns         444  ip_is_expected=  true  
+[2021/03/03 14:14:47 679] network    445  gethttpresp2  42.62.116.18  80  ns14  
+[2021/03/03 14:14:47 679] network    465  prot_type  tcp  
+[2021/03/03 14:14:47 679] transport  194  [dns] [1] response 42.62.116.34  
+[2021/03/03 14:14:47 679] transport  202  42  62  116  34  
+[2021/03/03 14:14:47 679] transport  204  ipv =  v4  
+[2021/03/03 14:14:47 679] transport  208  dns ip is v4  
+[2021/03/03 14:14:47 679] transport  130  iplist not avail  
+[2021/03/03 14:14:47 679] transport  247  no iplist now  
+[2021/03/03 14:14:47 679] network    95   iptoenv ,  ipcache  open.xf-yun.com  def  42.62.116.34  
+[2021/03/03 14:14:47 681] transport  291  dns cb start conn  
+[2021/03/03 14:14:47 681] transport  1304 [soc] connect   42.62.116.34  1028  
+[2021/03/03 14:14:47 681] transport  1316 mspsoc.open,prot_type=  tcp  
+[2021/03/03 14:14:47 692] network    418  soc error  10202  ns14  
+[2021/03/03 14:14:47 692] ns         253  name server http resp  10202  
+[2021/03/03 14:14:47 692] ns         412  ns response failed, err =  10202  
+[2021/03/03 14:14:47 692] ns         114  ns_host=  open.xf-yun.com  
+[2021/03/03 14:14:47 693] ns         116  use default ip  
+[2021/03/03 14:14:47 693] transport  1063 ns_ip =   42.62.116.18  
+[2021/03/03 14:14:47 693] transport  1064 ip_type =  def_athopen.xf-yun.com  
+[2021/03/03 14:14:47 693] ns         670  no data in ns_q  
+[2021/03/03 14:14:47 693] ns         671  conti_ns,ns_inprog =   1  
+[2021/03/03 14:14:47 693] transport  542  MSC:[soc] [1] error 10202 113!  
+[2021/03/03 14:14:47 693] transport  67   clear_ip ip_type =  def_athopen.xf-yun.com  
+[2021/03/03 14:14:47 693] transport  342  soc_conn_failed  
+[2021/03/03 14:14:47 693] network    95   iptoenv ,  ipcache  open.xf-yun.com  def  nil  
+[2021/03/03 14:14:47 695] transport  416  switch 80  
+[2021/03/03 14:14:47 695] transport  1332 [soc] disconnect   
+[2021/03/03 14:14:48 696] transport  330  soc_10202_wait  
+[2021/03/03 14:14:48 696] transport  1105 session.domain=  open.xf-yun.com  
+[2021/03/03 14:14:48 696] transport  1106 url.host=  open.xf-yun.com  
+[2021/03/03 14:14:48 696] transport  1083 NAMESERVER START  
+[2021/03/03 14:14:48 696] transport  1086 name =   ath  
+[2021/03/03 14:14:48 696] ns         634  ntt=  unknown  
+[2021/03/03 14:14:48 696] transport  1089 trans,ns_inprog =  0  
+[2021/03/03 14:14:48 696] ns         582  name server start  
+[2021/03/03 14:14:48 696] ns         588  ns_sub =   ath  
+[2021/03/03 14:14:48 697] ns         596  ns_host =   open.xf-yun.com  
+[2021/03/03 14:14:48 697] ns         475  ns_host=  open.xf-yun.com  
+[2021/03/03 14:14:48 697] ns         555  net_type =  standard  
+[2021/03/03 14:14:48 697] ns         556  cmwapascmnet =  
+[2021/03/03 14:14:48 697] ns         557  uniwapasuninet =  
+[2021/03/03 14:14:48 697] ns         558  ctwapasctnet =  
+[2021/03/03 14:14:48 697] ns         576  host=  hdns.xf-yun.com  
+[2021/03/03 14:14:48 697] network    263  gethostbyname  hdns.xf-yun.com  ns15  
+[2021/03/03 14:14:48 699] network    245  dns resp  0  ns15  
+[2021/03/03 14:14:48 699] ns         422  ns dns ok  42.62.116.18  
+[2021/03/03 14:14:48 699] ns         202  iplist not avail  
+[2021/03/03 14:14:48 699] ns         429  is_voicecloud_ip=  0  
+[2021/03/03 14:14:48 699] ns         436  ip_is_expected=  true  
+[2021/03/03 14:14:48 699] ns         444  ip_is_expected=  true  
+[2021/03/03 14:14:48 700] network    445  gethttpresp2  42.62.116.18  80  ns16  
+[2021/03/03 14:14:48 700] network    465  prot_type  tcp  
+[2021/03/03 14:14:48 700] transport  194  [dns] [1] response 42.62.116.34  
+[2021/03/03 14:14:48 700] transport  202  42  62  116  34  
+[2021/03/03 14:14:48 700] transport  204  ipv =  v4  
+[2021/03/03 14:14:48 701] transport  208  dns ip is v4  
+[2021/03/03 14:14:48 701] transport  130  iplist not avail  
+[2021/03/03 14:14:48 701] transport  247  no iplist now  
+[2021/03/03 14:14:48 701] network    95   iptoenv ,  ipcache  open.xf-yun.com  def  42.62.116.34  
+[2021/03/03 14:14:48 704] transport  291  dns cb start conn  
+[2021/03/03 14:14:48 704] transport  1304 [soc] connect   42.62.116.34  1028  
+[2021/03/03 14:14:48 704] transport  1316 mspsoc.open,prot_type=  tcp  
+[2021/03/03 14:14:48 725] network    418  soc error  10202  ns16  
+[2021/03/03 14:14:48 725] ns         253  name server http resp  10202  
+[2021/03/03 14:14:48 725] ns         412  ns response failed, err =  10202  
+[2021/03/03 14:14:48 725] ns         114  ns_host=  open.xf-yun.com  
+[2021/03/03 14:14:48 725] ns         116  use default ip  
+[2021/03/03 14:14:48 725] transport  1063 ns_ip =   42.62.116.18  
+[2021/03/03 14:14:48 725] transport  1064 ip_type =  def_athopen.xf-yun.com  
+[2021/03/03 14:14:48 725] ns         670  no data in ns_q  
+[2021/03/03 14:14:48 725] ns         671  conti_ns,ns_inprog =   1  
+[2021/03/03 14:14:48 735] transport  542  MSC:[soc] [1] error 10202 113!  
+[2021/03/03 14:14:48 736] transport  67   clear_ip ip_type =  def_athopen.xf-yun.com  
+[2021/03/03 14:14:48 736] transport  342  soc_conn_failed  
+[2021/03/03 14:14:48 736] network    95   iptoenv ,  ipcache  open.xf-yun.com  def  nil  
+[2021/03/03 14:14:48 737] transport  416  switch 80  
+[2021/03/03 14:14:48 737] transport  1332 [soc] disconnect   
+[2021/03/03 14:14:48 737] transport  58   transport=  table(20043770) 
+[2021/03/03 14:14:48 737] transport  59   throw_exception  10202  113  MSC:[soc] [1] error 10202 113!  
+[2021/03/03 14:14:48 737] lgi        182  [trans] [id = lgi_] exception 10202  
+[2021/03/03 14:14:48 737] lgi        183  lgi trytimes =   6  
+[2021/03/03 14:14:48 738] network    90   ipfromenv ,  ipcache  open.xf-yun.com  def  nil  
+[2021/03/03 14:14:48 738] transport  972  iplist not avail  
+[2021/03/03 14:14:48 738] transport  1332 [soc] disconnect   
+[2021/03/03 14:14:48 738] transport  991  transport clean  
+[2021/03/03 14:14:48 738] lgi        75   notify_lgi_result, ret = 10114  
+[2021/03/03 14:14:53 023] lgi        697  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2021/03/03 14:32:08 441 
+============================================================
+[2021/03/03 14:32:08 441] lgi        684  SYS_MSG_LOAD  
+[2021/03/03 14:32:08 442] lgi        706  SYS_MSG_REGCB  msp_status_cb  func(e40131d0) 
+[2021/03/03 14:32:08 443] lgi        298  LGI_MSG_INIT  
+[2021/03/03 14:32:08 443] lgi        305  lgi  lgi_  268436457  1573471853  
+[2021/03/03 14:32:08 443] lgi        347  work_dir  .  
+[2021/03/03 14:32:08 443] lgi        403  token:  nil  
+[2021/03/03 14:32:08 443] lgi        476  msc cver : 5.0.44.1288  
+[2021/03/03 14:32:08 443] lgi        519  ns_enable=  1  
+[2021/03/03 14:32:08 443] lgi        531  prot_ver=1  
+[2021/03/03 14:32:08 443] lgi        542  prot_type=tcp  
+[2021/03/03 14:32:08 443] lgi        693  SYS_MSG_UNLOAD  go bg!  
+[2021/03/03 14:32:08 453] lgi        598  LGI_MSG_START, caller =  ctts1P1HHBHA5qUYHmo3qaa0+jCExlNjw-3  
+[2021/03/03 14:32:08 453] lgi        604  lgistat =   0  
+[2021/03/03 14:32:08 453] lgi        630  lgi_auth_id =  nil  
+[2021/03/03 14:32:08 453] transport  645  paramkvsport is   0  
+[2021/03/03 14:32:08 453] transport  657  ns_enable=  1  
+[2021/03/03 14:32:08 453] transport  659  2017-08--24 is_ns_need_close =   nil  
+[2021/03/03 14:32:08 453] transport  665  net.nettype=  unknown  
+[2021/03/03 14:32:08 454] transport  675  url.full=  nil  
+[2021/03/03 14:32:08 454] transport  680  server_url_host=, server_url_port=, server_url_path=  open.xf-yun.com  nil  /msp.do  
+[2021/03/03 14:32:08 454] transport  907  net type:  unknown  
+[2021/03/03 14:32:08 454] transport  908  net operator:  def  
+[2021/03/03 14:32:08 454] transport  909  use proxy:  false  
+[2021/03/03 14:32:08 454] lgi        277  [session] send lgi request  
+[2021/03/03 14:32:08 454] transport  1105 session.domain=  open.xf-yun.com  
+[2021/03/03 14:32:08 454] transport  1106 url.host=  open.xf-yun.com  
+[2021/03/03 14:32:08 454] transport  1083 NAMESERVER START  
+[2021/03/03 14:32:08 454] transport  1086 name =   ath  
+[2021/03/03 14:32:08 454] ns         634  ntt=  unknown  
+[2021/03/03 14:32:08 454] transport  1089 trans,ns_inprog =  0  
+[2021/03/03 14:32:08 454] ns         582  name server start  
+[2021/03/03 14:32:08 454] ns         588  ns_sub =   ath  
+[2021/03/03 14:32:08 454] ns         596  ns_host =   open.xf-yun.com  
+[2021/03/03 14:32:08 454] ns         475  ns_host=  open.xf-yun.com  
+[2021/03/03 14:32:08 454] ns         555  net_type =  standard  
+[2021/03/03 14:32:08 454] ns         556  cmwapascmnet =  
+[2021/03/03 14:32:08 455] ns         557  uniwapasuninet =  
+[2021/03/03 14:32:08 455] ns         558  ctwapasctnet =  
+[2021/03/03 14:32:08 455] ns         576  host=  hdns.xf-yun.com  
+[2021/03/03 14:32:08 455] network    263  gethostbyname  hdns.xf-yun.com  ns1  
+[2021/03/03 14:32:08 455] lgi        244  lver:  nil  
+[2021/03/03 14:32:08 455] lgi        249  cfg_ver:  nil  
+[2021/03/03 14:32:08 455] transport  1860 transport_obj.send | in  
+[2021/03/03 14:32:08 455] transport  1866 self.msg_flag_q  table(e40613e0) 
+[2021/03/03 14:32:08 455] transport  1867 self.msg_q  table(e4061390) 
+[2021/03/03 14:32:08 455] transport  1799 transport_obj.try2send | in  
+[2021/03/03 14:32:08 455] transport  1800 self.soc  nil  
+[2021/03/03 14:32:08 455] transport  1801 self.connected  false  
+[2021/03/03 14:32:08 455] transport  1802 self.latesterr  0  
+[2021/03/03 14:32:08 455] transport  1873 transport_obj.send | out  
+[2021/03/03 14:32:08 482] network    245  dns resp  0  ns1  
+[2021/03/03 14:32:08 483] ns         422  ns dns ok  42.62.116.18  
+[2021/03/03 14:32:08 483] ns         202  iplist not avail  
+[2021/03/03 14:32:08 483] ns         429  is_voicecloud_ip=  0  
+[2021/03/03 14:32:08 483] ns         436  ip_is_expected=  true  
+[2021/03/03 14:32:08 483] ns         444  ip_is_expected=  true  
+[2021/03/03 14:32:08 483] network    445  gethttpresp2  42.62.116.18  80  ns2  
+[2021/03/03 14:32:08 483] network    465  prot_type  tcp  
+[2021/03/03 14:32:08 505] transport  194  [dns] [1] response 42.62.116.18  
+[2021/03/03 14:32:08 505] transport  202  42  62  116  18  
+[2021/03/03 14:32:08 505] transport  204  ipv =  v4  
+[2021/03/03 14:32:08 505] transport  208  dns ip is v4  
+[2021/03/03 14:32:08 505] transport  130  iplist not avail  
+[2021/03/03 14:32:08 506] transport  247  no iplist now  
+[2021/03/03 14:32:08 506] network    95   iptoenv ,  ipcache  open.xf-yun.com  def  42.62.116.18  
+[2021/03/03 14:32:08 506] transport  291  dns cb start conn  
+[2021/03/03 14:32:08 507] transport  1304 [soc] connect   42.62.116.18  1028  
+[2021/03/03 14:32:08 507] transport  1316 mspsoc.open,prot_type=  tcp  
+[2021/03/03 14:32:08 527] network    350  connected  ns2  
+[2021/03/03 14:32:08 527] network    353  send ok  268  ns2  
+[2021/03/03 14:32:08 547] transport  473  [soc] [1] connected  
+[2021/03/03 14:32:08 547] transport  1799 transport_obj.try2send | in  
+[2021/03/03 14:32:08 547] transport  1800 self.soc  udata(e4032fb8) 
+[2021/03/03 14:32:08 547] transport  1801 self.connected  true  
+[2021/03/03 14:32:08 547] transport  1802 self.latesterr  0  
+[2021/03/03 14:32:08 547] transport  1819 transport:try2send,#msg_q=  1  
+[2021/03/03 14:32:08 547] transport  1359 build http request.  
+[2021/03/03 14:32:08 548] transport  1476 POST /msp.do HTTP/1.1
+X-Sub: auth
+X-Par: ver=MSSP+0%2E9&sub=auth&cmd=lgi&cver=5%2E0%2E44%2E1288&key=08/xUdz2LCq2c=
+Host: open.xf-yun.com
+CT: multipart/mixed;boundary=--
+CL: 331
+
+----
+Content-Length:56
+Content-Type:text/appinfo
+Content-Encoding:gzip,encrypt/0.2
+
+î¥´ý¥p"›‚}z}z‡}3”eEuýrUe%Õ"6ôI?Ä  
+[2021/03/03 14:32:08 548] transport  1819 transport:try2send,#msg_q=  0  
+[2021/03/03 14:32:08 549] transport  482  [soc] [1] send ok  516  
+[2021/03/03 14:32:08 549] transport  1799 transport_obj.try2send | in  
+[2021/03/03 14:32:08 549] transport  1800 self.soc  udata(e4032fb8) 
+[2021/03/03 14:32:08 549] transport  1801 self.connected  true  
+[2021/03/03 14:32:08 549] transport  1802 self.latesterr  0  
+[2021/03/03 14:32:08 549] transport  1819 transport:try2send,#msg_q=  0  
+[2021/03/03 14:32:08 580] network    362  readable  ns2  
+[2021/03/03 14:32:08 580] network    366  HTTP/1.1 200 OK
+Date: Wed, 03 Mar 2021 06:32:07 GMT
+Content-Type: application/json
+Content-Length: 307
+Connection: keep-alive
+Server: iflytek/hdns
+
+{"dns":[{"host":"open.xf-yun.com","sip":[{"svc":"ath","ips":[{"ip":"42.62.42.18","port":80,"idc":"dx"},{"ip":"42.62.116.18","port":80,"idc":"dx"}],"ttl":6000,"compel":0}]}],"default":[{"host":"open.xf-yun.com","sip":[{"svc":"ath","ips":[{"ip":"42.62.116.18","port":80,"idc":"dx"}],"ttl":6000,"compel":0}]}]}  
+[2021/03/03 14:32:08 580] ns         253  name server http resp  0  
+[2021/03/03 14:32:08 580] ns         266  ns response OK for this time!  
+[2021/03/03 14:32:08 580] ns         277  from_server=  iflytek/hdns  
+[2021/03/03 14:32:08 581] ns         360  compel :  0  
+[2021/03/03 14:32:08 581] transport  1063 ns_ip =   42.62.42.18  
+[2021/03/03 14:32:08 581] transport  1064 ip_type =  assigned_athopen.xf-yun.com_host  
+[2021/03/03 14:32:08 581] ns         670  no data in ns_q  
+[2021/03/03 14:32:08 582] ns         671  conti_ns,ns_inprog =   1  
+[2021/03/03 14:32:08 612] transport  494  [soc] [1] readable  
+[2021/03/03 14:32:08 612] transport  1767 HTTP/1.1 200 OK
+Content-Length: 1
+X-Req-Date: 2021/03/03 14:32:07 398
+X-Par: ver=MSSP+0%2E9&ret=0&cver=5%2E0%2E44%2E1288&uid=d16059986516&key=0b4tt4NRhOod4ZRat/7u3jWODmVgUSCVzjpJN1fOD0Cje^^GHVr44O7F31uwm8rS7v^O69lP45Bl3bXIGyB4Z1vNtcgbIHhnW8
+CT: text/plain
+CL: 1
+Content-Length: 1
+X-Res-Date: 2021/03/03 14:32:07 414
+
+0  
+[2021/03/03 14:32:08 612] transport  1494 a_complete_httpmessage  200  
+[2021/03/03 14:32:08 612] transport  1604 is_update  false  
+[2021/03/03 14:32:08 612] lgi        105  [trans] [id = lgi_] readable  
+[2021/03/03 14:32:08 614] network    90   ipfromenv ,  ipcache  open.xf-yun.com  def  42.62.116.18  
+[2021/03/03 14:32:08 614] transport  972  iplist not avail  
+[2021/03/03 14:32:08 614] transport  1332 [soc] disconnect   
+[2021/03/03 14:32:08 614] transport  991  transport clean  
+[2021/03/03 14:32:08 614] lgi        136  lgi resp!  
+[2021/03/03 14:32:08 614] lgi        143  lgi ok!  
+[2021/03/03 14:32:08 614] lgi        151  unkown  d16059986516  
+[2021/03/03 14:32:08 615] lgi        72   loginid =   1  d16059986516  
+[2021/03/03 14:32:08 615] lgi        75   notify_lgi_result, ret = 0  
